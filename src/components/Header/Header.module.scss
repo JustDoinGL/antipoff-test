@@ -1,0 +1,28 @@
+.header {
+  position: relative;
+  background-color: var(--violet-color);
+}
+
+.btn__exit {
+  position: absolute;
+  right: 80px;
+  top: 32px;
+}
+
+.btn__back {
+  position: absolute;
+  left: 80px;
+  top: 32px;
+}
+
+@media (max-width: 950px) {
+  .btn__back {
+    left: 16px;
+    top: 12px;
+  }
+
+  .btn__exit {
+    right: 16px;
+    top: 12px;
+  }
+}

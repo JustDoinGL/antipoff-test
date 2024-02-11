@@ -1,0 +1,26 @@
+.container {
+  max-width: 846px;
+  margin: 0 auto;
+  display: flex;
+  padding: 64px 0;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (max-width: 950px) {
+  .container {
+    max-width: 334px;
+    margin: 0 auto;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .info {
+    text-align: center;
+  }
+}

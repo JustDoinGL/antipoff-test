@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  color: rgb(21, 19, 23);
+  font-size: 20px;
+  line-height: 23px;
+}
