@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Проект "antipoff-test"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Привет 👋! В этом проекте реализованы все задачи со звездочкой и базовые требования, а также добавлена обработка ошибок, скелетон и лоадеры.
 
-Currently, two official plugins are available:
+## Ссылка на деплой
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 [Деплой проекта](https://justdoingl.github.io/antipoff-test/)
 
-## Expanding the ESLint configuration
+## Стек технологий
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Vite
+- React
+- Redux
+- Axios
+- React-router-dom v6
+- SVGR
 
-- Configure the top-level `parserOptions` property like this:
+## Функциональность
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Реализованы все задачи со звездочкой и базовые требования.
+- Добавлена обработка ошибок.
+- Использованы скелетон и лоадеры.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Как запустить проект локально
+
+1. Склонируйте репозиторий: `git clone https://github.com/justdoingl/antipoff-test.git`
+2. Установите зависимости: `npm install`
+3. Запустите проект: `npm start`
+
